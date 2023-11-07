@@ -1,9 +1,10 @@
 const { Router } = require('express');
 
 const authRoutes = require('./auth');
-const macaronPackRoutes = require('./macaronPacks')
+const macaronPackRoutes = require('./macaronPacks');
 const macaronItemRoutes = require('./macaronItems');
-const drinkItemRoutes = require('./drinkItems')
+const optionalItemsRoutes = require('./optionalItems');
+const drinkItemRoutes = require('./drinkItems');
 const orderRoutes = require('./orders');
 const employeeRoutes = require('./employees');
 
@@ -13,6 +14,7 @@ routes.use('/api/auth', authRoutes);
 routes.use('/api/macaronPacks', macaronPackRoutes);
 routes.use('/api/macaronItems', macaronItemRoutes);
 routes.use('/api/drinkItems', drinkItemRoutes);
+routes.use('/api/optionalItems', optionalItemsRoutes);
 routes.use('/api/orders', orderRoutes);
 routes.use('/api/employees', employeeRoutes);
 

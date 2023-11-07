@@ -12,7 +12,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Almond',
         price: 2.50,
         calories: 90,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -21,7 +21,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Blackberry',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -30,7 +30,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Lemon',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -39,7 +39,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Green Tea',
         price: 2.50,
         calories: 90,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -48,7 +48,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Caramel',
         price: 2.50,
         calories: 120,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -57,7 +57,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Cherry',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -66,7 +66,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Grape',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -75,7 +75,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Mint',
         price: 2.50,
         calories: 90,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -84,7 +84,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Raspberry',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -93,7 +93,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Orange',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -102,7 +102,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Chocolate',
         price: 2.50,
         calories: 110,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
       {
         category: 'macaron',
@@ -111,7 +111,7 @@ itemRoutes.get('/', (req, res) => {
         title: 'Blueberry',
         price: 2.50,
         calories: 100,
-        description: "CONTAINS: EGG, CREAM, ALMOND"
+        description: 'CONTAINS: EGG, CREAM, ALMOND',
       },
     ]),
     // Adds a fake server side delay
