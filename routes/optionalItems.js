@@ -9,7 +9,7 @@ optionalItemsRoutes.get('/', (req, res) => {
         category: 'giftoption',
         itemId: 'giftwrap',
         title: 'Gift Wrap Option',
-        price: 1.00,
+        price: 2.00,
       },
     ]),
     // Adds a fake server side delay

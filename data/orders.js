@@ -34,6 +34,11 @@ const createOrder = (order) => {
     phone: order.phone,
     zipCode: order.zipCode,
     items: order.items,
+    total: order.total,
+    orderTimeLog: order.orderTimeLog,
+    subTotal: order.subTotal,
+    taxAmount: order.taxAmount,
+    taxRate: order.taxRate,
   };
   orders.push(newOrder);
 
@@ -60,6 +65,11 @@ const editOrder = (id, editedOrder) => {
     name: editedOrder.name,
     phone: editedOrder.phone,
     zipCode: editedOrder.zipCode,
+    total: order.total,
+    orderTimeLog: order.orderTimeLog,
+    subTotal: order.subTotal,
+    taxAmount: order.taxAmount,
+    taxRate: order.taxRate,
   } : order));
 
   return { success: true, order: orders.find((order) => order.id === id) };

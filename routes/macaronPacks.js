@@ -9,7 +9,7 @@ macaronPackRoutes.get('/', (req, res) => {
         category: 'pack',
         itemId: 'singlepack',
         imageId: 'singlepack',
-        title: 'Single Box',
+        title: '1-Pack Box',
         price: 2.50,
         numMac: 1,
       },
