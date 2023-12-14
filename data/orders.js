@@ -11,8 +11,8 @@ const validateOrder = (order) => {
   if (!order.zipCode || !/^[0-9]{5}$/i.test(order.zipCode)) {
     return { error: 'Invalid Zip Code', valid: false };
   }
-  if (order.zipCode === '99999') {
-    return { error: "We don't ship to 99999.", valid: false };
+  if (order.zipCode > '999950' || order.zipCode < '00501') {
+    return { error: `${order.zipCode} is not found`, valid: false };
   }
   if (!Array.isArray(order.items) || order.items.length === 0) {
     return { error: 'You must order at least one item.', valid: false };
