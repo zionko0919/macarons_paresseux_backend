@@ -37,8 +37,11 @@ const createOrder = (order) => {
     total: order.total,
     orderTimeLog: order.orderTimeLog,
     subTotal: order.subTotal,
+    discountedSubTotal: order.discountedSubTotal,
     taxAmount: order.taxAmount,
     taxRate: order.taxRate,
+    couponDiscountPercentage: order.couponDiscountPercentage,
+    couponDiscountPrice: order.couponDiscountPrice,
   };
   orders.push(newOrder);
 
@@ -68,8 +71,11 @@ const editOrder = (id, editedOrder) => {
     total: order.total,
     orderTimeLog: order.orderTimeLog,
     subTotal: order.subTotal,
+    discountedSubTotal: order.discountedSubTotal,
     taxAmount: order.taxAmount,
     taxRate: order.taxRate,
+    couponDiscountPercentage: order.couponDiscountPercentage,
+    couponDiscountPrice: order.couponDiscountPrice,
   } : order));
 
   return { success: true, order: orders.find((order) => order.id === id) };

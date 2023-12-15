@@ -7,6 +7,7 @@ const optionalItemsRoutes = require('./optionalItems');
 const drinkItemRoutes = require('./drinkItems');
 const orderRoutes = require('./orders');
 const employeeRoutes = require('./employees');
+const couponCodeRoutes = require('./couponCodes');
 
 const routes = Router();
 
@@ -17,5 +18,6 @@ routes.use('/api/drinkItems', drinkItemRoutes);
 routes.use('/api/optionalItems', optionalItemsRoutes);
 routes.use('/api/orders', orderRoutes);
 routes.use('/api/employees', employeeRoutes);
+routes.use('/api/couponCodes', couponCodeRoutes);
 
 module.exports = routes;
