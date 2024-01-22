@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hi!' });
+  res.json({ message: 'Macarons Paresseux Server Side: Hi and Welcome!' });
 });
 
 app.use('/', routes);
@@ -38,7 +38,7 @@ const server = http.createServer(app);
 server.on('upgrade', (request, socket, head) => {
   // Skip auth since we don't have the cookie and would have to reconfigure the proxy to get it
   // const user = getUser(request);
-  // if (user?.access !== 'associate') {
+  // if (user?.access !== 'admin') {
   webSocketServer.handleUpgrade(request, socket, head, (ws) => {
     webSocketServer.emit('connection', ws, request);
   });

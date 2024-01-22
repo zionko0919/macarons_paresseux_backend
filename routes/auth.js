@@ -23,7 +23,7 @@ authRoutes.get('/current-user', (req, res) => {
 authRoutes.post('/login', (req, res) => {
   const { username, password } = req.body;
   if (username && password === 'pass') {
-    const user = { access: ['guest', 'Guest'].includes(username) ? '' : 'associate', username };
+    const user = { access: ['guest', 'Guest'].includes(username) ? '' : 'admin', username };
     console.log(secret);
     const newToken = jwt.sign(user, secret, { algorithm: 'HS256' });
     console.log(newToken);

@@ -12,7 +12,7 @@ module.exports = (req, res, next) => {
       console.log('User Validation Error', error);
     }
   }
-  if (user && user.access === 'associate') {
+  if (user && user.access === 'admin') {
     next();
   } else {
     res.status(401).send('Unauthorized');

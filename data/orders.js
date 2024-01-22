@@ -1,5 +1,6 @@
 let orders = [];
 let orderId = 1;
+// const invoiceNumber = Date.now();
 
 const validateOrder = (order) => {
   if (!order) {
@@ -30,18 +31,22 @@ const createOrder = (order) => {
   orderId += 1;
   const newOrder = {
     id,
+    invoiceNumber: order.invoiceNumber,
     name: order.name,
     phone: order.phone,
     zipCode: order.zipCode,
     items: order.items,
     total: order.total,
     orderTimeLog: order.orderTimeLog,
+    pickUpDateString: order.pickUpDateString,
+    pickUpTime: order.pickUpTime,
     subTotal: order.subTotal,
     discountedSubTotal: order.discountedSubTotal,
     taxAmount: order.taxAmount,
     taxRate: order.taxRate,
     couponDiscountPercentage: order.couponDiscountPercentage,
     couponDiscountPrice: order.couponDiscountPrice,
+    pickUpDateTime: order.pickUpDateTime,
   };
   orders.push(newOrder);
 
@@ -70,13 +75,17 @@ const editOrder = (id, editedOrder) => {
     zipCode: editedOrder.zipCode,
     total: order.total,
     orderTimeLog: order.orderTimeLog,
+    pickUpDateString: order.pickUpDateString,
+    pickUpTime: order.pickUpTime,
     subTotal: order.subTotal,
     discountedSubTotal: order.discountedSubTotal,
     taxAmount: order.taxAmount,
     taxRate: order.taxRate,
     couponDiscountPercentage: order.couponDiscountPercentage,
     couponDiscountPrice: order.couponDiscountPrice,
-  } : order));
+    pickUpDateTime: order.pickUpDateTime,
+  } : order),
+  console.log(orders));
 
   return { success: true, order: orders.find((order) => order.id === id) };
 };
