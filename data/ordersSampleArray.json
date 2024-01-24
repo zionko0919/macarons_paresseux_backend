@@ -1,0 +1,2119 @@
+[
+  {
+    "id": "1",
+    "invoiceNumber": 1706044570081,
+    "name": "Sean Ko",
+    "phone": "680-608-9608",
+    "zipCode": "60608",
+    "items": [
+      {
+        "itemId": "twopack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044522289,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "HI, This is my Gift",
+          "giftSenderName": "Sean"
+        }
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      },
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044544777,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 2
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 18.404,
+    "orderTimeLog": "1/23/2024, 3:16:10 PM",
+    "pickUpDateString": "1/29/2024",
+    "pickUpTime": "7:30 PM",
+    "subTotal": 21.5,
+    "discountedSubTotal": 17.2,
+    "taxAmount": 1.204,
+    "taxRate": 0.07,
+    "couponDiscountPercentage": 20,
+    "couponDiscountPrice": 4.3,
+    "pickUpDateTime": "1/29/2024, 7:30:00 PM"
+  },
+  {
+    "id": "2",
+    "invoiceNumber": 1706044665395,
+    "name": "Nate Ko",
+    "phone": "816-374-0586",
+    "zipCode": "01846",
+    "items": [
+      {
+        "itemId": "partypack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044639984,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 2
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 2
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 2
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 2
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 2
+          },
+          {
+            "itemId": "grape",
+            "quantity": 2
+          },
+          {
+            "itemId": "mint",
+            "quantity": 2
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "orange",
+            "quantity": 2
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 2
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 2
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Party Time! Come to my party TONIGHT!",
+          "giftSenderName": "Nate"
+        }
+      },
+      {
+        "itemId": "tea",
+        "category": "drink",
+        "quantity": 1,
+        "key": "tea"
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 2,
+        "key": "coffee"
+      },
+      {
+        "itemId": "twopack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044655878,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 44.945,
+    "orderTimeLog": "1/23/2024, 3:17:45 PM",
+    "pickUpDateString": "1/29/2024",
+    "pickUpTime": "7:30 PM",
+    "subTotal": 44.5,
+    "discountedSubTotal": 44.5,
+    "taxAmount": 0.445,
+    "taxRate": 0.01,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/29/2024, 7:30:00 PM"
+  },
+  {
+    "id": "3",
+    "invoiceNumber": 1706044705074,
+    "name": "Brad Brady",
+    "phone": "483-650-8610",
+    "zipCode": "84650",
+    "items": [
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      },
+      {
+        "itemId": "milk",
+        "category": "drink",
+        "quantity": 4,
+        "key": "milk"
+      },
+      {
+        "itemId": "tea",
+        "category": "drink",
+        "quantity": 1,
+        "key": "tea"
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 2,
+        "key": "coffee"
+      }
+    ],
+    "total": 14.715,
+    "orderTimeLog": "1/23/2024, 3:18:25 PM",
+    "pickUpDateString": "1/23/2024",
+    "pickUpTime": "ASAP",
+    "subTotal": 13.5,
+    "discountedSubTotal": 13.5,
+    "taxAmount": 1.2149999999999999,
+    "taxRate": 0.09,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/23/2024, 3:43:08 PM"
+  },
+  {
+    "id": "4",
+    "invoiceNumber": 1706044769437,
+    "name": "Anna Kim",
+    "phone": "812-346-5082",
+    "zipCode": "36048",
+    "items": [
+      {
+        "itemId": "eightpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044731953,
+        "subItem": [
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 3
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "milk",
+        "category": "drink",
+        "quantity": 2,
+        "key": "milk"
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "coffee"
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 4,
+        "key": "icedcoffee"
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      },
+      {
+        "itemId": "tea",
+        "category": "drink",
+        "quantity": 1,
+        "key": "tea"
+      }
+    ],
+    "total": 32.76,
+    "orderTimeLog": "1/23/2024, 3:19:29 PM",
+    "pickUpDateString": "1/26/2024",
+    "pickUpTime": "1:30 PM",
+    "subTotal": 31.5,
+    "discountedSubTotal": 31.5,
+    "taxAmount": 1.26,
+    "taxRate": 0.04,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/26/2024, 1:30:00 PM"
+  },
+  {
+    "id": "5",
+    "invoiceNumber": 1706044964012,
+    "name": "Ronald Duck",
+    "phone": "507-598-7578",
+    "zipCode": "95975",
+    "items": [
+      {
+        "itemId": "singlepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044874530,
+        "subItem": [
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Only one macaron for you!!!!! I hate you!!!!!",
+          "giftSenderName": "Ronald Duck"
+        }
+      },
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044907988,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "However, you get 4 more macarons.",
+          "giftSenderName": "Ronald Duck"
+        }
+      },
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044930870,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 2
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 2
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 2
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 31.35,
+    "orderTimeLog": "1/23/2024, 3:22:44 PM",
+    "pickUpDateString": "1/27/2024",
+    "pickUpTime": "4:30 PM",
+    "subTotal": 33.5,
+    "discountedSubTotal": 28.5,
+    "taxAmount": 2.85,
+    "taxRate": 0.1,
+    "couponDiscountPercentage": 14.925373134328357,
+    "couponDiscountPrice": 5,
+    "pickUpDateTime": "1/27/2024, 4:30:00 PM"
+  },
+  {
+    "id": "7",
+    "invoiceNumber": 1706044845392,
+    "name": "Catherine Smith",
+    "phone": "212-555-1234",
+    "zipCode": "10001",
+    "items": [
+      {
+        "itemId": "singlepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044817880,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 3.99,
+    "orderTimeLog": "1/24/2024, 10:05:30 AM",
+    "pickUpDateString": "1/26/2024",
+    "pickUpTime": "12:00 PM",
+    "subTotal": 3.99,
+    "discountedSubTotal": 3.99,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/26/2024, 12:00:00 PM"
+  },
+  {
+    "id": "8",
+    "invoiceNumber": 1706044880024,
+    "name": "David Johnson",
+    "phone": "312-555-5678",
+    "zipCode": "60601",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044848713,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Happy Birthday!",
+          "giftSenderName": "David"
+        }
+      }
+    ],
+    "total": 15.96,
+    "orderTimeLog": "1/24/2024, 10:15:45 AM",
+    "pickUpDateString": "1/27/2024",
+    "pickUpTime": "3:00 PM",
+    "subTotal": 20,
+    "discountedSubTotal": 16,
+    "taxAmount": 0.96,
+    "taxRate": 0.06,
+    "couponDiscountPercentage": 20,
+    "couponDiscountPrice": 4,
+    "pickUpDateTime": "1/27/2024, 3:00:00 PM"
+  },
+  {
+    "id": "9",
+    "invoiceNumber": 1706044914512,
+    "name": "Emily Brown",
+    "phone": "415-555-6789",
+    "zipCode": "94102",
+    "items": [
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 4.99,
+    "orderTimeLog": "1/24/2024, 10:30:20 AM",
+    "pickUpDateString": "1/25/2024",
+    "pickUpTime": "11:00 AM",
+    "subTotal": 4.99,
+    "discountedSubTotal": 4.99,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/25/2024, 11:00:00 AM"
+  },
+  {
+    "id": "10",
+    "invoiceNumber": 1706044950138,
+    "name": "Michael Wilson",
+    "phone": "213-555-2468",
+    "zipCode": "90001",
+    "items": [
+      {
+        "itemId": "eightpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044922618,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Enjoy the macarons!",
+          "giftSenderName": "Michael"
+        }
+      }
+    ],
+    "total": 31.5,
+    "orderTimeLog": "1/24/2024, 10:45:15 AM",
+    "pickUpDateString": "1/28/2024",
+    "pickUpTime": "5:00 PM",
+    "subTotal": 31.5,
+    "discountedSubTotal": 31.5,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/28/2024, 5:00:00 PM"
+  },
+  {
+    "id": "11",
+    "invoiceNumber": 1706044989266,
+    "name": "Sarah Lee",
+    "phone": "650-555-7890",
+    "zipCode": "94043",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044974081,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 33.5,
+    "orderTimeLog": "1/24/2024, 11:00:10 AM",
+    "pickUpDateString": "1/29/2024",
+    "pickUpTime": "11:30 AM",
+    "subTotal": 33.5,
+    "discountedSubTotal": 33.5,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/29/2024, 11:30:00 AM"
+  },
+  {
+    "id": "12",
+    "invoiceNumber": 1706045024217,
+    "name": "John Doe",
+    "phone": "415-555-1010",
+    "zipCode": "94105",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706045000748,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 15.96,
+    "orderTimeLog": "1/24/2024, 11:15:30 AM",
+    "pickUpDateString": "1/30/2024",
+    "pickUpTime": "10:00 AM",
+    "subTotal": 20,
+    "discountedSubTotal": 16,
+    "taxAmount": 0.96,
+    "taxRate": 0.06,
+    "couponDiscountPercentage": 20,
+    "couponDiscountPrice": 4,
+    "pickUpDateTime": "1/30/2024, 10:00:00 AM"
+  },
+  {
+    "id": "13",
+    "invoiceNumber": 1706045079004,
+    "name": "Linda Wilson",
+    "phone": "213-555-2020",
+    "zipCode": "90005",
+    "items": [
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 4.99,
+    "orderTimeLog": "1/24/2024, 11:30:45 AM",
+    "pickUpDateString": "1/25/2024",
+    "pickUpTime": "2:00 PM",
+    "subTotal": 4.99,
+    "discountedSubTotal": 4.99,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/25/2024, 2:00:00 PM"
+  },
+  {
+    "id": "14",
+    "invoiceNumber": 1706045123511,
+    "name": "Jessica Brown",
+    "phone": "312-555-3030",
+    "zipCode": "60602",
+    "items": [
+      {
+        "itemId": "singlepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706045096012,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Happy Anniversary!",
+          "giftSenderName": "Jessica"
+        }
+      }
+    ],
+    "total": 3.99,
+    "orderTimeLog": "1/24/2024, 11:45:20 AM",
+    "pickUpDateString": "1/26/2024",
+    "pickUpTime": "4:00 PM",
+    "subTotal": 3.99,
+    "discountedSubTotal": 3.99,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/26/2024, 4:00:00 PM"
+  },
+  {
+    "id": "15",
+    "invoiceNumber": 1706045167284,
+    "name": "William Taylor",
+    "phone": "650-555-4040",
+    "zipCode": "94040",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706045139808,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      }
+    ],
+    "total": 33.5,
+    "orderTimeLog": "1/24/2024, 12:00:15 PM",
+    "pickUpDateString": "1/27/2024",
+    "pickUpTime": "2:30 PM",
+    "subTotal": 33.5,
+    "discountedSubTotal": 33.5,
+    "taxAmount": 0,
+    "taxRate": 0,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/27/2024, 2:30:00 PM"
+  },
+  {
+    "id": "16",
+    "invoiceNumber": 1706044964018,
+    "name": "Sophia Wilson",
+    "phone": "345-678-9012",
+    "zipCode": "34567",
+    "items": [
+      {
+        "itemId": "twopack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964019,
+        "subItem": [
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 14.85,
+    "orderTimeLog": "1/25/2024, 11:30:00 AM",
+    "pickUpDateString": "1/31/2024",
+    "pickUpTime": "4:00 PM",
+    "subTotal": 14.0,
+    "discountedSubTotal": 14.0,
+    "taxAmount": 0.85,
+    "taxRate": 0.06,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/31/2024, 4:00:00 PM"
+  },
+  {
+    "id": "17",
+    "invoiceNumber": 1706044964020,
+    "name": "William Lee",
+    "phone": "456-789-0123",
+    "zipCode": "45678",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964021,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Happy Anniversary!",
+          "giftSenderName": "William"
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 32.75,
+    "orderTimeLog": "1/25/2024, 12:00:00 PM",
+    "pickUpDateString": "2/1/2024",
+    "pickUpTime": "11:00 AM",
+    "subTotal": 31.0,
+    "discountedSubTotal": 31.0,
+    "taxAmount": 1.75,
+    "taxRate": 0.056451612903225805,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/1/2024, 11:00:00 AM"
+  },
+  {
+    "id": "18",
+    "invoiceNumber": 1706044964022,
+    "name": "James Johnson",
+    "phone": "567-890-1234",
+    "zipCode": "56789",
+    "items": [
+      {
+        "itemId": "singlepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964023,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "coffee"
+      }
+    ],
+    "total": 3.85,
+    "orderTimeLog": "1/25/2024, 1:30:00 PM",
+    "pickUpDateString": "1/26/2024",
+    "pickUpTime": "3:00 PM",
+    "subTotal": 3.5,
+    "discountedSubTotal": 3.5,
+    "taxAmount": 0.35,
+    "taxRate": 0.1,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/26/2024, 3:00:00 PM"
+  },
+  {
+    "id": "19",
+    "invoiceNumber": 1706044964024,
+    "name": "Charlotte Davis",
+    "phone": "678-901-2345",
+    "zipCode": "67890",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964025,
+        "subItem": [
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Happy Holidays!",
+          "giftSenderName": "Charlotte"
+        }
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 21.65,
+    "orderTimeLog": "1/25/2024, 2:00:00 PM",
+    "pickUpDateString": "1/27/2024",
+    "pickUpTime": "5:00 PM",
+    "subTotal": 20.0,
+    "discountedSubTotal": 20.0,
+    "taxAmount": 1.65,
+    "taxRate": 0.0825,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/27/2024, 5:00:00 PM"
+  },
+  {
+    "id": "20",
+    "invoiceNumber": 1706044964026,
+    "name": "Mia Miller",
+    "phone": "789-012-3456",
+    "zipCode": "78901",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964027,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 32.75,
+    "orderTimeLog": "1/25/2024, 3:30:00 PM",
+    "pickUpDateString": "2/1/2024",
+    "pickUpTime": "10:00 AM",
+    "subTotal": 31.0,
+    "discountedSubTotal": 31.0,
+    "taxAmount": 1.75,
+    "taxRate": 0.056451612903225805,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/1/2024, 10:00:00 AM"
+  },
+  {
+    "id": "21",
+    "invoiceNumber": 1706044964028,
+    "name": "Evelyn Garcia",
+    "phone": "890-123-4567",
+    "zipCode": "89012",
+    "items": [
+      {
+        "itemId": "singlepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964029,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Thank You!",
+          "giftSenderName": "Evelyn"
+        }
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "coffee"
+      }
+    ],
+    "total": 3.85,
+    "orderTimeLog": "1/26/2024, 9:00:00 AM",
+    "pickUpDateString": "1/27/2024",
+    "pickUpTime": "12:00 PM",
+    "subTotal": 3.5,
+    "discountedSubTotal": 3.5,
+    "taxAmount": 0.35,
+    "taxRate": 0.1,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/27/2024, 12:00:00 PM"
+  },
+  {
+    "id": "22",
+    "invoiceNumber": 1706044964030,
+    "name": "Abigail Martinez",
+    "phone": "901-234-5678",
+    "zipCode": "90123",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964031,
+        "subItem": [
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Happy Birthday!",
+          "giftSenderName": "Abigail"
+        }
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 21.65,
+    "orderTimeLog": "1/26/2024, 10:30:00 AM",
+    "pickUpDateString": "1/28/2024",
+    "pickUpTime": "3:00 PM",
+    "subTotal": 20.0,
+    "discountedSubTotal": 20.0,
+    "taxAmount": 1.65,
+    "taxRate": 0.0825,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/28/2024, 3:00:00 PM"
+  },
+  {
+    "id": "23",
+    "invoiceNumber": 1706044964032,
+    "name": "Camila Rodriguez",
+    "phone": "912-345-6789",
+    "zipCode": "91234",
+    "items": [
+      {
+        "itemId": "eightpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964033,
+        "subItem": [
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "mint",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "milk",
+        "category": "drink",
+        "quantity": 1,
+        "key": "milk"
+      }
+    ],
+    "total": 28.95,
+    "orderTimeLog": "1/26/2024, 11:00:00 AM",
+    "pickUpDateString": "1/29/2024",
+    "pickUpTime": "2:00 PM",
+    "subTotal": 26.5,
+    "discountedSubTotal": 26.5,
+    "taxAmount": 2.45,
+    "taxRate": 0.09,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/29/2024, 2:00:00 PM"
+  },
+  {
+    "id": "24",
+    "invoiceNumber": 1706044964034,
+    "name": "Luna Hernandez",
+    "phone": "923-456-7890",
+    "zipCode": "92345",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964035,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "mint",
+            "quantity": 1
+          },
+          {
+            "itemId": "grape",
+            "quantity": 1
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Enjoy the variety!",
+          "giftSenderName": "Luna"
+        }
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 43.0,
+    "orderTimeLog": "1/26/2024, 11:30:00 AM",
+    "pickUpDateString": "1/30/2024",
+    "pickUpTime": "5:00 PM",
+    "subTotal": 40.0,
+    "discountedSubTotal": 40.0,
+    "taxAmount": 3.0,
+    "taxRate": 0.075,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/30/2024, 5:00:00 PM"
+  },
+  {
+    "id": "25",
+    "invoiceNumber": 1706044964036,
+    "name": "Mila Martinez",
+    "phone": "934-567-8901",
+    "zipCode": "93456",
+    "items": [
+      {
+        "itemId": "partypack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964037,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 2
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 2
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 2
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 2
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 2
+          },
+          {
+            "itemId": "orange",
+            "quantity": 2
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "mint",
+            "quantity": 2
+          },
+          {
+            "itemId": "grape",
+            "quantity": 2
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 2
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 42.0,
+    "orderTimeLog": "1/26/2024, 12:00:00 PM",
+    "pickUpDateString": "1/31/2024",
+    "pickUpTime": "4:00 PM",
+    "subTotal": 40.0,
+    "discountedSubTotal": 40.0,
+    "taxAmount": 2.0,
+    "taxRate": 0.05,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "1/31/2024, 4:00:00 PM"
+  },
+  {
+    "id": "26",
+    "invoiceNumber": 1706044964038,
+    "name": "Olivia Johnson",
+    "phone": "945-678-9012",
+    "zipCode": "94567",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964039,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "mint",
+            "quantity": 1
+          },
+          {
+            "itemId": "grape",
+            "quantity": 1
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "icedcoffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "icedcoffee"
+      }
+    ],
+    "total": 43.0,
+    "orderTimeLog": "1/26/2024, 12:30:00 PM",
+    "pickUpDateString": "2/1/2024",
+    "pickUpTime": "2:00 PM",
+    "subTotal": 40.0,
+    "discountedSubTotal": 40.0,
+    "taxAmount": 3.0,
+    "taxRate": 0.075,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/1/2024, 2:00:00 PM"
+  },
+  {
+    "id": "27",
+    "invoiceNumber": 1706044964040,
+    "name": "Sophia Brown",
+    "phone": "956-789-0123",
+    "zipCode": "95678",
+    "items": [
+      {
+        "itemId": "partypack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964041,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 2
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 2
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 2
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 2
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 2
+          },
+          {
+            "itemId": "orange",
+            "quantity": 2
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "mint",
+            "quantity": 2
+          },
+          {
+            "itemId": "grape",
+            "quantity": 2
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 2
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Enjoy the party!",
+          "giftSenderName": "Sophia"
+        }
+      },
+      {
+        "itemId": "milk",
+        "category": "drink",
+        "quantity": 1,
+        "key": "milk"
+      }
+    ],
+    "total": 42.0,
+    "orderTimeLog": "1/26/2024, 1:00:00 PM",
+    "pickUpDateString": "2/2/2024",
+    "pickUpTime": "4:00 PM",
+    "subTotal": 40.0,
+    "discountedSubTotal": 40.0,
+    "taxAmount": 2.0,
+    "taxRate": 0.05,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/2/2024, 4:00:00 PM"
+  },
+  {
+    "id": "28",
+    "invoiceNumber": 1706044964042,
+    "name": "Isabella Wilson",
+    "phone": "967-890-1234",
+    "zipCode": "96789",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964043,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 21.75,
+    "orderTimeLog": "1/26/2024, 1:30:00 PM",
+    "pickUpDateString": "2/3/2024",
+    "pickUpTime": "3:00 PM",
+    "subTotal": 20.0,
+    "discountedSubTotal": 20.0,
+    "taxAmount": 1.75,
+    "taxRate": 0.0875,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/3/2024, 3:00:00 PM"
+  },
+  {
+    "id": "29",
+    "invoiceNumber": 1706044964044,
+    "name": "Charlotte Jones",
+    "phone": "978-901-2345",
+    "zipCode": "97890",
+    "items": [
+      {
+        "itemId": "eightpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964045,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Enjoy the variety!",
+          "giftSenderName": "Charlotte"
+        }
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "coffee"
+      }
+    ],
+    "total": 32.45,
+    "orderTimeLog": "1/26/2024, 2:00:00 PM",
+    "pickUpDateString": "2/4/2024",
+    "pickUpTime": "6:00 PM",
+    "subTotal": 30.0,
+    "discountedSubTotal": 30.0,
+    "taxAmount": 2.45,
+    "taxRate": 0.08166666666666667,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/4/2024, 6:00:00 PM"
+  },
+  {
+    "id": "30",
+    "invoiceNumber": 1706044964046,
+    "name": "Amelia Moore",
+    "phone": "989-012-3456",
+    "zipCode": "98901",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964047,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "tea",
+        "category": "drink",
+        "quantity": 1,
+        "key": "tea"
+      }
+    ],
+    "total": 21.75,
+    "orderTimeLog": "1/26/2024, 2:30:00 PM",
+    "pickUpDateString": "2/5/2024",
+    "pickUpTime": "1:00 PM",
+    "subTotal": 20.0,
+    "discountedSubTotal": 20.0,
+    "taxAmount": 1.75,
+    "taxRate": 0.0875,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/5/2024, 1:00:00 PM"
+  },
+  {
+    "id": "31",
+    "invoiceNumber": 1706044964048,
+    "name": "Ethan Taylor",
+    "phone": "998-123-4567",
+    "zipCode": "99812",
+    "items": [
+      {
+        "itemId": "twelvepack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964049,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 1
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 1
+          },
+          {
+            "itemId": "orange",
+            "quantity": 1
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "mint",
+            "quantity": 1
+          },
+          {
+            "itemId": "grape",
+            "quantity": 1
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 43.0,
+    "orderTimeLog": "1/26/2024, 3:00:00 PM",
+    "pickUpDateString": "2/6/2024",
+    "pickUpTime": "11:00 AM",
+    "subTotal": 40.0,
+    "discountedSubTotal": 40.0,
+    "taxAmount": 3.0,
+    "taxRate": 0.075,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/6/2024, 11:00:00 AM"
+  },
+  {
+    "id": "32",
+    "invoiceNumber": 1706044964050,
+    "name": "Avery Clark",
+    "phone": "987-234-5678",
+    "zipCode": "98723",
+    "items": [
+      {
+        "itemId": "partypack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964051,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 2
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 2
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 2
+          },
+          {
+            "itemId": "caramel",
+            "quantity": 2
+          },
+          {
+            "itemId": "chocolate",
+            "quantity": 2
+          },
+          {
+            "itemId": "orange",
+            "quantity": 2
+          },
+          {
+            "itemId": "raspberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "mint",
+            "quantity": 2
+          },
+          {
+            "itemId": "grape",
+            "quantity": 2
+          },
+          {
+            "itemId": "blueberry",
+            "quantity": 2
+          },
+          {
+            "itemId": "greentea",
+            "quantity": 2
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Enjoy your party!",
+          "giftSenderName": "Avery"
+        }
+      },
+      {
+        "itemId": "milk",
+        "category": "drink",
+        "quantity": 1,
+        "key": "milk"
+      }
+    ],
+    "total": 42.0,
+    "orderTimeLog": "1/26/2024, 3:30:00 PM",
+    "pickUpDateString": "2/7/2024",
+    "pickUpTime": "12:00 PM",
+    "subTotal": 40.0,
+    "discountedSubTotal": 40.0,
+    "taxAmount": 2.0,
+    "taxRate": 0.05,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/7/2024, 12:00:00 PM"
+  },
+  {
+    "id": "33",
+    "invoiceNumber": 1706044964052,
+    "name": "Mia Rodriguez",
+    "phone": "976-345-6789",
+    "zipCode": "97634",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964053,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 21.75,
+    "orderTimeLog": "1/26/2024, 4:00:00 PM",
+    "pickUpDateString": "2/8/2024",
+    "pickUpTime": "10:00 AM",
+    "subTotal": 20.0,
+    "discountedSubTotal": 20.0,
+    "taxAmount": 1.75,
+    "taxRate": 0.0875,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/8/2024, 10:00:00 AM"
+  },
+  {
+    "id": "34",
+    "invoiceNumber": 1706044964054,
+    "name": "Abigail Lewis",
+    "phone": "965-456-7890",
+    "zipCode": "96545",
+    "items": [
+      {
+        "itemId": "twopack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964055,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": true,
+          "giftMessage": "Enjoy your macarons!",
+          "giftSenderName": "Abigail"
+        }
+      },
+      {
+        "itemId": "coffee",
+        "category": "drink",
+        "quantity": 1,
+        "key": "coffee"
+      }
+    ],
+    "total": 24.0,
+    "orderTimeLog": "1/26/2024, 4:30:00 PM",
+    "pickUpDateString": "2/9/2024",
+    "pickUpTime": "2:00 PM",
+    "subTotal": 22.0,
+    "discountedSubTotal": 22.0,
+    "taxAmount": 2.0,
+    "taxRate": 0.1,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/9/2024, 2:00:00 PM"
+  },
+  {
+    "id": "35",
+    "invoiceNumber": 1706044964056,
+    "name": "Logan Lee",
+    "phone": "954-567-8901",
+    "zipCode": "95456",
+    "items": [
+      {
+        "itemId": "fourpack",
+        "category": "pack",
+        "quantity": 1,
+        "key": 1706044964057,
+        "subItem": [
+          {
+            "itemId": "almond",
+            "quantity": 1
+          },
+          {
+            "itemId": "blackberry",
+            "quantity": 1
+          },
+          {
+            "itemId": "lemon",
+            "quantity": 1
+          },
+          {
+            "itemId": "cherry",
+            "quantity": 1
+          }
+        ],
+        "giftOption": {
+          "isGiftOptionSelected": false,
+          "giftMessage": "",
+          "giftSenderName": ""
+        }
+      },
+      {
+        "itemId": "latte",
+        "category": "drink",
+        "quantity": 1,
+        "key": "latte"
+      }
+    ],
+    "total": 21.75,
+    "orderTimeLog": "1/26/2024, 5:00:00 PM",
+    "pickUpDateString": "2/10/2024",
+    "pickUpTime": "4:00 PM",
+    "subTotal": 20.0,
+    "discountedSubTotal": 20.0,
+    "taxAmount": 1.75,
+    "taxRate": 0.0875,
+    "couponDiscountPercentage": 0,
+    "couponDiscountPrice": 0,
+    "pickUpDateTime": "2/10/2024, 4:00:00 PM"
+  }
+]

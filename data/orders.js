@@ -1,6 +1,11 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable import/extensions */
+const jsonData = require('./ordersSampleData');
+
 let orders = [];
 let orderId = 1;
-// const invoiceNumber = Date.now();
+
+orders = jsonData;
 
 const validateOrder = (order) => {
   if (!order) {
