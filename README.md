@@ -1,8 +1,11 @@
 # Macarons Paresseux Back-end
 
-This is the back-end server for tMacarons Paresseux application.
+This is the back-end server for Macarons Paresseux application.
+This back-end server should be running along with the Macarons Paresseux React App to make it work fully.
 
 Run with `npm start`
+
+Open http://localhost:3030 to view it in your browser if you would like to see how it communicates with the main app.
 
 ## Available Endpoints
 
