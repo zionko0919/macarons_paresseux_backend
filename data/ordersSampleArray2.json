@@ -1,0 +1,46 @@
+[
+  {
+  "id": "3",
+  "invoiceNumber": 1706044705074,
+  "name": "Brad Brady",
+  "phone": "483-650-8610",
+  "zipCode": "84650",
+  "items": [
+    {
+      "itemId": "latte",
+      "category": "drink",
+      "quantity": 1,
+      "key": "latte"
+    },
+    {
+      "itemId": "milk",
+      "category": "drink",
+      "quantity": 4,
+      "key": "milk"
+    },
+    {
+      "itemId": "tea",
+      "category": "drink",
+      "quantity": 1,
+      "key": "tea"
+    },
+    {
+      "itemId": "coffee",
+      "category": "drink",
+      "quantity": 2,
+      "key": "coffee"
+    }
+  ],
+  "total": 14.715,
+  "orderTimeLog": "1/23/2024, 3:18:25 PM",
+  "pickUpDateString": "1/23/2024",
+  "pickUpTime": "ASAP",
+  "subTotal": 13.5,
+  "discountedSubTotal": 13.5,
+  "taxAmount": 1.2149999999999999,
+  "taxRate": 0.09,
+  "couponDiscountPercentage": 0,
+  "couponDiscountPrice": 0,
+  "pickUpDateTime": "1/23/2024, 3:43:08 PM"
+}
+]

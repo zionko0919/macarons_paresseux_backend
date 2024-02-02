@@ -1,59 +1,43 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable import/extensions */
-const jsonData = require('./ordersSampleData');
+// const jsonData = require('./ordersSampleData');
 
 let archievedOrders = [];
 let archievedOrderId = 1;
 
-archievedOrders = jsonData;
-
-const validateOrder = (archievedOrder) => {
-  if (!archievedOrder) {
-    return { error: 'Missing body', valid: false };
-  }
-  if (typeof archievedOrder.name !== 'string' || !archievedOrder.name.trim()) {
-    return { error: 'Invalid Name', valid: false };
-  }
-  if (!archievedOrder.zipCode || !/^[0-9]{5}$/i.test(archievedOrder.zipCode)) {
-    return { error: 'Invalid Zip Code', valid: false };
-  }
-  if (archievedOrder.zipCode > '999950' || archievedOrder.zipCode < '00501') {
-    return { error: `${archievedOrder.zipCode} is not found`, valid: false };
-  }
-  if (!Array.isArray(archievedOrder.items) || archievedOrder.items.length === 0) {
-    return { error: 'You must order at least one item.', valid: false };
-  }
-  return { valid: true };
-};
+// archievedOrders = jsonData;
 
 const createOrder = (archievedOrder) => {
-  const result = validateOrder(archievedOrder);
-  if (!result.valid) {
-    return { success: false, ...result };
-  }
+  // const result = validateOrder(archievedOrder);
+  // if (!result.valid) {
+  //   return { success: false, ...result };
+  // }
 
   const id = `${archievedOrderId}`;
   archievedOrderId += 1;
-  const newOrder = {
+  const newArchievedOrder = {
     id,
-    invoiceNumber: archievedOrder.invoiceNumber,
-    name: archievedOrder.name,
-    phone: archievedOrder.phone,
-    zipCode: archievedOrder.zipCode,
-    items: archievedOrder.items,
-    total: archievedOrder.total,
-    orderTimeLog: archievedOrder.orderTimeLog,
-    pickUpDateString: archievedOrder.pickUpDateString,
-    pickUpTime: archievedOrder.pickUpTime,
-    subTotal: archievedOrder.subTotal,
-    discountedSubTotal: archievedOrder.discountedSubTotal,
-    taxAmount: archievedOrder.taxAmount,
-    taxRate: archievedOrder.taxRate,
-    couponDiscountPercentage: archievedOrder.couponDiscountPercentage,
-    couponDiscountPrice: archievedOrder.couponDiscountPrice,
-    pickUpDateTime: archievedOrder.pickUpDateTime,
+    // archievedOrder: archievedOrder.order,
+    invoiceNumber: archievedOrder.order.invoiceNumber,
+    name: archievedOrder.order.name,
+    phone: archievedOrder.order.phone,
+    zipCode: archievedOrder.order.zipCode,
+    orderTimeLog: archievedOrder.order.orderTimeLog,
+    pickUpDateString: archievedOrder.order.pickUpDateString,
+    pickUpTime: archievedOrder.order.pickUpTime,
+    pickUpDateTime: archievedOrder.order.pickUpDateTime,
+    items: archievedOrder.order.items,
+    subTotal: archievedOrder.order.subTotal,
+    couponCodeName: archievedOrder.order.couponCodeName,
+    couponDiscountPercentage: archievedOrder.order.couponDiscountPercentage,
+    discountedSubTotal: archievedOrder.order.discountedSubTotal,
+    couponDiscountPrice: archievedOrder.order.couponDiscountPrice,
+    taxRate: archievedOrder.order.taxRate,
+    taxAmount: archievedOrder.order.taxAmount,
+    total: archievedOrder.order.total,
+    readyOnTime: archievedOrder.order.readyOnTime,
   };
-  archievedOrders.push(newOrder);
+  archievedOrders.push(newArchievedOrder);
 
   return { success: true };
 };
@@ -67,11 +51,6 @@ const deleteOrder = (id) => {
 };
 
 const editOrder = (id, editedArchievedOrder) => {
-  const result = validateOrder(editedArchievedOrder);
-  if (!result.valid) {
-    return { success: false, ...result };
-  }
-
   archievedOrders = archievedOrders.map((archievedOrder) => (archievedOrder.id === id ? {
     ...archievedOrder,
     items: editedArchievedOrder.items,
@@ -108,5 +87,5 @@ module.exports = {
   deleteOrder,
   editOrder,
   getOrders,
-  validateOrder,
+  // validateOrder,
 };

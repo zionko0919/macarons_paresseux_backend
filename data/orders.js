@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable import/extensions */
 const jsonData = require('./ordersSampleData');
+const jsonData2 = require('./ordersSampleArray2.json');
 
 let orders = [];
 let orderId = 1;
 
 orders = jsonData;
+// orders = jsonData2;
 
 const validateOrder = (order) => {
   if (!order) {
@@ -40,18 +42,19 @@ const createOrder = (order) => {
     name: order.name,
     phone: order.phone,
     zipCode: order.zipCode,
-    items: order.items,
-    total: order.total,
     orderTimeLog: order.orderTimeLog,
     pickUpDateString: order.pickUpDateString,
     pickUpTime: order.pickUpTime,
+    pickUpDateTime: order.pickUpDateTime,
+    items: order.items,
     subTotal: order.subTotal,
-    discountedSubTotal: order.discountedSubTotal,
-    taxAmount: order.taxAmount,
-    taxRate: order.taxRate,
+    couponCodeName: order.currentCoupon,
     couponDiscountPercentage: order.couponDiscountPercentage,
     couponDiscountPrice: order.couponDiscountPrice,
-    pickUpDateTime: order.pickUpDateTime,
+    discountedSubTotal: order.discountedSubTotal,
+    taxRate: order.taxRate,
+    taxAmount: order.taxAmount,
+    total: order.total,
   };
   orders.push(newOrder);
 
