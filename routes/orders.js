@@ -14,7 +14,9 @@ const sendOrders = () => {
 };
 
 webSocketServer.on('connection', (ws) => {
-  ws.send(JSON.stringify(orderData.getOrders()));
+  console.log('we are on WS CURRENT ORDERS');
+  // ws.send(JSON.stringify(orderData.getOrders()));
+  ws.send(JSON.stringify({ type: 'currentOrders', data: orderData.getOrders() }));
 });
 
 const orderRoutes = Router();

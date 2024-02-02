@@ -6,7 +6,7 @@ const macaronItemRoutes = require('./macaronItems');
 const optionalItemsRoutes = require('./optionalItems');
 const drinkItemRoutes = require('./drinkItems');
 const orderRoutes = require('./orders');
-const archievedOrderRoutes = require('./archievedOrders');
+const archiveOrderRoutes = require('./archiveOrders');
 const employeeRoutes = require('./employees');
 const couponCodeRoutes = require('./couponCodes');
 
@@ -18,7 +18,7 @@ routes.use('/api/macaronItems', macaronItemRoutes);
 routes.use('/api/drinkItems', drinkItemRoutes);
 routes.use('/api/optionalItems', optionalItemsRoutes);
 routes.use('/api/orders', orderRoutes);
-routes.use('/api/archievedOrders', archievedOrderRoutes);
+routes.use('/api/archiveOrders', archiveOrderRoutes);
 routes.use('/api/employees', employeeRoutes);
 routes.use('/api/couponCodes', couponCodeRoutes);
 

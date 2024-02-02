@@ -12,9 +12,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "eslintConfig": {
-    "extends": [
-      "airbnb-base"
-    ],
+    "extends": [],
     "rules": {
       "no-console": "off"
     }
@@ -32,9 +30,12 @@
     "ws": "7.4.0"
   },
   "devDependencies": {
-    "eslint": "^7.17.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^4.3.0",
     "nodemon": "2.0.6"
   }
