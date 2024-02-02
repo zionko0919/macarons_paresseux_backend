@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const { Router } = require('express');
 const WebSocket = require('ws');
 
@@ -14,7 +15,7 @@ const sendArchiveOrders = () => {
 };
 
 webSocketServer.on('connection', (ws) => {
-  console.log('we are on WS ARCHIVE ORDERS');
+  console.log('You are connected to WS ARCHIVE ORDERS');
   // ws.send(JSON.stringify(archiveOrderData.getArchiveOrders()));
   ws.send(JSON.stringify({ type: 'archiveOrders', data: archiveOrderData.getArchiveOrders() }));
 });

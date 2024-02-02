@@ -45,12 +45,17 @@ const getCouponDiscountPercentage = (order) => {
   return 0;
 };
 
+const texasStateTaxRate = 0.0625;
+const countyTaxRate = 0.0;
+const austinTaxRate = 0.01;
+const texasAustinTaxRate = texasStateTaxRate + countyTaxRate + austinTaxRate;
+
 let orders = [];
 let orderId = 1;
 // orders = jsonData;
 // orders = jsonData2;
 
-const validateOrder = (order) => {
+const validateOrder = (order, subTotal) => {
   if (!order) {
     return { error: 'Missing body', valid: false };
   }
@@ -66,28 +71,37 @@ const validateOrder = (order) => {
   if (!Array.isArray(order.items) || order.items.length === 0) {
     return { error: 'You must order at least one item.', valid: false };
   }
+  if (order.currentCoupon) {
+    const minPurchase = couponCodesData.find((i) => i.promoCode
+    === (order.currentCoupon).toUpperCase());
+    if (subTotal < minPurchase) {
+      return { error: `Invalid Coupon: Purchase of $${minPurchase} required to apply your code.`, valid: false };
+    }
+  }
+
   return { valid: true };
 };
 
 const createOrder = (order) => {
   const itemStatus = 'PAID';
   const subTotal = calculateSubTotal(order);
-  const couponDiscountPercentage = getCouponDiscountPercentage(order);
-  const couponDiscountPrice = (subTotal * couponDiscountPercentage);
-  const discountedSubTotal = (subTotal - couponDiscountPrice);
-  const texasStateTaxRate = 0.0625;
-  const countyTaxRate = 0.0;
-  const austinTaxRate = 0.01;
-  const texasAustinTaxRate = texasStateTaxRate + countyTaxRate + austinTaxRate;
-  const taxAmount = (discountedSubTotal * texasAustinTaxRate);
-  const total = ((discountedSubTotal) + (taxAmount));
 
-  const result = validateOrder(order);
+  const result = validateOrder(order, subTotal);
   if (!result.valid) {
     return { success: false, ...result };
   }
 
+  const couponDiscountPercentage = getCouponDiscountPercentage(order);
+  const couponDiscountPrice = (subTotal * couponDiscountPercentage);
+  const discountedSubTotal = (subTotal - couponDiscountPrice);
+  const taxAmount = (discountedSubTotal * texasAustinTaxRate);
+  const total = ((discountedSubTotal) + (taxAmount));
   const id = `${orderId}`;
+
+  const updatedItems = order.items.map(
+    (item) => ({ ...item, itemStatus, date: order.orderTimeLog }),
+  );
+
   orderId += 1;
   const newOrder = {
     id,
@@ -99,7 +113,7 @@ const createOrder = (order) => {
     pickUpDateString: order.pickUpDateString,
     pickUpTime: order.pickUpTime,
     pickUpDateTime: order.pickUpDateTime,
-    items: order.items,
+    items: updatedItems,
     subTotal,
     couponCodeName: order.currentCoupon,
     couponDiscountPercentage,
@@ -147,7 +161,6 @@ const editOrder = (id, editedOrder) => {
       couponDiscountPrice: editedOrder.couponDiscountPrice,
       pickUpDateTime: editedOrder.pickUpDateTime,
     } : order),
-    console.log(orders),
   );
 
   return { success: true, order: orders.find((order) => order.id === id) };

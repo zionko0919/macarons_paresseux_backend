@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const { Router } = require('express');
 const WebSocket = require('ws');
 
@@ -14,7 +15,7 @@ const sendOrders = () => {
 };
 
 webSocketServer.on('connection', (ws) => {
-  console.log('we are on WS CURRENT ORDERS');
+  console.log('You are connected to WS CURRENT ORDERS');
   // ws.send(JSON.stringify(orderData.getOrders()));
   ws.send(JSON.stringify({ type: 'currentOrders', data: orderData.getOrders() }));
 });
