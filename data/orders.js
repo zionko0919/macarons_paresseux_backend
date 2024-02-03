@@ -55,7 +55,7 @@ let orderId = 1;
 // orders = jsonData;
 // orders = jsonData2;
 
-const validateOrder = (order, subTotal) => {
+const validateOrder = (order, subTotal, orderTime) => {
   if (!order) {
     return { error: 'Missing body', valid: false };
   }
@@ -78,6 +78,13 @@ const validateOrder = (order, subTotal) => {
       return { error: `Invalid Coupon: Purchase of $${minPurchase} required to apply your code.`, valid: false };
     }
   }
+  if (Date(order.pickUpDateTime) < Date(orderTime)) {
+    return { error: 'Please check your pick-up date and time.', valid: false };
+  }
+  console.log(orderTime.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
+  console.log('order: ', Date(orderTime));
+  console.log('Pick Up: ', Date(order.pickUpDateTime));
+  console.log(order.pickUpDateTime > orderTime);
 
   return { valid: true };
 };
@@ -85,8 +92,10 @@ const validateOrder = (order, subTotal) => {
 const createOrder = (order) => {
   const itemStatus = 'PAID';
   const subTotal = calculateSubTotal(order);
+  const orderTime = new Date();
 
-  const result = validateOrder(order, subTotal);
+  console.log(order.pickUpDateTime);
+  const result = validateOrder(order, subTotal, orderTime);
   if (!result.valid) {
     return { success: false, ...result };
   }
@@ -102,6 +111,11 @@ const createOrder = (order) => {
     (item) => ({ ...item, itemStatus, date: order.orderTimeLog }),
   );
 
+  let asapPickUpDateTime = order.pickUpDateTime;
+  if (order.pickUpTime === 'ASAP') {
+    asapPickUpDateTime = new Date(orderTime.getTime() + 25 * 60 * 1000);
+  }
+
   orderId += 1;
   const newOrder = {
     id,
@@ -109,7 +123,7 @@ const createOrder = (order) => {
     name: order.name,
     phone: order.phone,
     zipCode: order.zipCode,
-    orderTimeLog: order.orderTimeLog,
+    orderTimeLog: orderTime.toLocaleString('en-US', { timeZone: 'America/Chicago' }),
     pickUpDateString: order.pickUpDateString,
     pickUpTime: order.pickUpTime,
     pickUpDateTime: order.pickUpDateTime,

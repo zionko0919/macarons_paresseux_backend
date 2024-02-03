@@ -60,34 +60,36 @@ const editArchiveOrder = (id, editedArchiveOrder) => {
 
   // exchangeItemArr = [...exchangeItemArr, ...convertExchangeItems];
 
-  archiveOrders = archiveOrders.map((archiveOrder) => (archiveOrder.id === id ? {
-    ...archiveOrder,
-    invoiceNumber: editedArchiveOrder.invoiceNumber,
-    name: editedArchiveOrder.name,
-    phone: editedArchiveOrder.phone,
-    zipCode: editedArchiveOrder.zipCode,
-    orderTimeLog: editedArchiveOrder.orderTimeLog,
-    pickUpDateString: editedArchiveOrder.pickUpDateString,
-    pickUpTime: editedArchiveOrder.pickUpTime,
-    pickUpDateTime: editedArchiveOrder.pickUpDateTime,
-    items: editedArchiveOrder.items,
-    subTotal: editedArchiveOrder.subTotal,
-    couponCodeName: editedArchiveOrder.couponCodeName,
-    couponDiscountPercentage: editedArchiveOrder.couponDiscountPercentage,
-    discountedSubTotal: editedArchiveOrder.discountedSubTotal,
-    couponDiscountPrice: editedArchiveOrder.couponDiscountPrice,
-    taxRate: editedArchiveOrder.taxRate,
-    taxAmount: editedArchiveOrder.taxAmount,
-    total: editedArchiveOrder.total,
-    readyOnTime: editedArchiveOrder.readyOnTime,
-    orderStatus: editedArchiveOrder.orderStatus,
-    delayedTimeAmount: editedArchiveOrder.delayedTimeAmount,
-    anyReturns: editedArchiveOrder.anyReturns,
-    exchangeDate: editedArchiveOrder.formattedExchangeDate,
-    reasonsForExchangeOrReturn: editedArchiveOrder.reasonsForExchangeOrReturn,
+  archiveOrders = archiveOrders.map(
+    (archiveOrder) => (archiveOrder.id === id ? {
+      ...archiveOrder,
+      invoiceNumber: editedArchiveOrder.invoiceNumber,
+      name: editedArchiveOrder.name,
+      phone: editedArchiveOrder.phone,
+      zipCode: editedArchiveOrder.zipCode,
+      orderTimeLog: editedArchiveOrder.orderTimeLog,
+      pickUpDateString: editedArchiveOrder.pickUpDateString,
+      pickUpTime: editedArchiveOrder.pickUpTime,
+      pickUpDateTime: editedArchiveOrder.pickUpDateTime,
+      items: editedArchiveOrder.items,
+      subTotal: editedArchiveOrder.subTotal,
+      couponCodeName: editedArchiveOrder.couponCodeName,
+      couponDiscountPercentage: editedArchiveOrder.couponDiscountPercentage,
+      discountedSubTotal: editedArchiveOrder.discountedSubTotal,
+      couponDiscountPrice: editedArchiveOrder.couponDiscountPrice,
+      taxRate: editedArchiveOrder.taxRate,
+      taxAmount: editedArchiveOrder.taxAmount,
+      total: editedArchiveOrder.total,
+      readyOnTime: editedArchiveOrder.readyOnTime,
+      orderStatus: editedArchiveOrder.orderStatus,
+      delayedTimeAmount: editedArchiveOrder.delayedTimeAmount,
+      anyReturns: editedArchiveOrder.anyReturns,
+      exchangeDate: editedArchiveOrder.formattedExchangeDate,
+      reasonsForExchangeOrReturn: editedArchiveOrder.reasonsForExchangeOrReturn,
 
-  } : archiveOrder),
-  console.log(archiveOrders));
+    } : archiveOrder),
+    console.log(archiveOrders),
+  );
 
   return {
     success: true,
